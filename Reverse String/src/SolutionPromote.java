@@ -15,6 +15,7 @@ public class SolutionPromote {
             temp=s_ch[i];
             s_ch[i]=s_ch[s_size-i];
             s_ch[s_size-i]=temp;
+
         }
         String new_str=new String(s_ch);
         return  new_str;
